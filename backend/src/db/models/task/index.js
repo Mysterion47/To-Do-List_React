@@ -1,10 +1,10 @@
-const mongoose = require('mongoose');
+const mongoose = require("mongoose");
 
 const { Schema } = mongoose;
 
 const taskScheme = new Schema({
-    text: String,
-    isCheck: Boolean
-  });
+  text: String,
+  isCheck: Boolean,
+});
 
-module.exports = Task = mongoose.model('React_tasks', taskScheme);
+module.exports = Task = mongoose.model("React_tasks", taskScheme);
