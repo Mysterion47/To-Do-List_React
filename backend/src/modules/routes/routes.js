@@ -9,7 +9,6 @@ const {
     deleteAll
 } = require('../controllers/task.controller');
 
-//Routes for tasks operations
 router.get('/allTasks', getAllTasks);
 router.post('/createTask', addNewTask);
 router.patch('/updateTask', changeTask);
